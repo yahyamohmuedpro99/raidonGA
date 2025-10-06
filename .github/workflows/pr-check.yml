@@ -2,12 +2,14 @@ on:
   push:
     branches:
       - main
-
-  pull-request:
+      
+  pull_request:
     branches:
       - main
   
 jobs:
-  test-example-job
+  test-example-job:
     runs-on: ubuntu-latest
-    
+    steps:
+      - name: run tests
+        run: npm run test
