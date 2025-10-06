@@ -11,5 +11,10 @@ jobs:
   test-example-job:
     runs-on: ubuntu-latest
     steps:
+
+      # Checkout the repository first idiot how the hell he will see the code ?!
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
       - name: run tests
         run: npm run test
