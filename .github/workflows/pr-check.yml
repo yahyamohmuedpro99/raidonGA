@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - main
+
+  pull-request:
+    branches:
+      - main
+  
+jobs:
+  test-example-job
+    runs-on: ubuntu-latest
+    

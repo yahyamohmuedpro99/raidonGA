@@ -1,0 +1,12 @@
+{
+    "name": "raidonGA",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "src/test.sh"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
