@@ -12,5 +12,12 @@ jobs:
     steps:
       - name: just print Hello world
         run: echo " Hello world"
+
+      - name: pull the code
+        uses: actions/checkout@v5.0.0
+
+      - name: list files exist there
+        run: ls -la
+        
       
     
